@@ -1,0 +1,46 @@
+.logo {
+
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -12%;
+    left: 7%;
+}
+
+.nav-items {
+
+    display: inline-block;
+    color: white;
+    margin-right: 34px;
+    font-size: 1.2rem;
+
+}
+
+.nav-links {
+
+    display: inline-block;
+    position: relative;
+    top: -50%;
+    left: 48%;
+
+}
+
+.navbar {
+
+    height: 125px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #0F2B38;
+    position: relative;
+}
+
+#moto-text {
+    position: absolute;
+    display: block;
+    top: 75%;
+    color: gold;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    left: 1%;
+}

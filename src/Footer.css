@@ -1,0 +1,47 @@
+.social-icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.footer-div {
+    position: relative;
+    height: 46px;
+    width: 100%;
+    background: #0F2B38;;
+}
+
+#fb-logo {
+
+    left: 1%;
+
+}
+
+#insta-logo {
+
+    left: 2%;
+
+}
+
+#mail-id {
+    display: inline-block;
+    position: relative;
+    left: 3%;
+    color: white;
+    top: -20%;
+}
+
+#whatsapp-logo {
+    position: relative;
+    margin-left: 68%;
+}
+
+#whatsapp-num {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+    top: -8px;
+}
