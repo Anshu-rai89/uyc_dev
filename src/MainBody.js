@@ -8,7 +8,7 @@ class MainBody extends React.Component{
                  <img className = "logo-back" src={process.env.PUBLIC_URL + '/img/main_cover.png'} alt="uyc_logo"></img>
                 <span id="moto-text-body">UNIVERSAL YOUTH CONNECT</span>
                 <span id="motive">THE WAY FORWARD</span>
-                <span id="comming-soon">We Will Be Live soon.....</span>
+                <marquee id="comming-soon">We Will Be Live soon.....</marquee>
             </div>
         )
     }
