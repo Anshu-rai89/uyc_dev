@@ -12,19 +12,19 @@ class Header extends React.Component {
             src={process.env.PUBLIC_URL + "/img/shield_logo.png"}
             alt="uyc_logo"
           ></img>
-          <span id="moto-text">UNIVERSAL YOUTH CONNECT</span>
+          {/* <span id="moto-text">UNIVERSAL YOUTH CONNECT</span> */}
           <ul className="nav-links">
             <li class="nav-items" id="home">
               <NavLink to="/construction"> HOME </NavLink>
             </li>
             <li class="nav-items" id="about">
-              <NavLink to="/construction"> ABOUTUS </NavLink>
+              <NavLink to="/construction"> ABOUT US </NavLink>
             </li>
             <li class="nav-items" id="events">
-              <NavLink to="/construction"> Events </NavLink>
+              <NavLink to="/construction"> EVENTS </NavLink>
             </li>
             <li class="nav-items" id="blogs">
-              <NavLink to="/construction"> BlOG </NavLink>
+              <NavLink to="/construction"> BLOG </NavLink>
             </li>
             <li class="nav-items" id="donate">
               <NavLink to="/construction"> DONATE </NavLink>

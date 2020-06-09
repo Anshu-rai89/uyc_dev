@@ -4,7 +4,7 @@
     width: 150px;
     position: relative;
     top: -12%;
-    left: 7%;
+    left: 0%;
 }
 
 .nav-items {
@@ -14,6 +14,11 @@
     margin-right: 34px;
     font-size: 1.2rem;
 
+}
+
+.active {
+    text-decoration: none;
+    color: white;
 }
 
 .nav-links {
