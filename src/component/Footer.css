@@ -11,6 +11,7 @@
     width: 100%;
     background: #0F2B38;
     display: flex;
+    overflow: hidden
 }
 
 #fb-logo {
@@ -35,15 +36,42 @@
 }
 
 #whatsapp-logo {
-    position: relative;
-    margin-left: 68%;
+    display: inline-block;
+    margin-left: 86%;
+    position: absolute;
 }
 
 #whatsapp-num {
     display: inline-block;
-    position: relative;
+    position: absolute;
+    margin-left: 89%;
     color: white;
-    font-weight: bold;
-    margin-left: 1%;
-    top: 24%;
+    margin-top: 1%;
 }
+
+@media screen and (max-width: 1142px){
+   #whatsapp-logo{
+        margin-left: 81%;
+   }
+   #whatsapp-num{
+        margin-left: 85%;
+   }
+}
+
+@media screen and (max-width: 843px){
+    #whatsapp-logo{
+         margin-left: 74%;
+    }
+    #whatsapp-num{
+         margin-left: 79%;
+    }
+ }
+
+ @media screen and (max-width: 598px){
+    #whatsapp-logo{
+         margin-left: 64%;
+    }
+    #whatsapp-num{
+         margin-left: 69%;
+    }
+ }

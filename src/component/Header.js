@@ -10,7 +10,7 @@ class Header extends React.Component {
           className="logo"
           src={process.env.PUBLIC_URL + "/img/shield_logo.png"}
           alt="uyc_logo"
-        ></img>
+        />
         {/* <span id="moto-text">UNIVERSAL YOUTH CONNECT</span> */}
         <ul className="nav-links">
           <li class="nav-items" id="home">

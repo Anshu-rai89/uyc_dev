@@ -1,10 +1,10 @@
 .logo {
-
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 14%;
     position: relative;
-    top: -12%;
-    left: 0%;
+    margin-top: 0;
+    margin-left: 0%;
+    display: inline-block;
 }
 
 .nav-items {
@@ -22,12 +22,10 @@
 }
 
 .nav-links {
-
     display: inline-block;
     position: relative;
-    top: -50%;
-    left: 48%;
-
+    top: -48%;
+    margin-left: 40%;
 }
 
 .navbar {
@@ -37,6 +35,7 @@
     border: 1px solid black;
     background-color: #0F2B38;
     position: relative;
+    overflow: hidden
 }
 
 #moto-text {
@@ -48,4 +47,66 @@
     font-weight: bolder;
     font-size: 1.2rem;
     left: 1%;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* below are media queries.... */
+@media screen and (max-width: 1205px){
+    .nav-links{
+        margin-left: 32%;
+    }
+
+}
+
+@media screen and (max-width: 1025px){
+    .nav-links{
+        margin-left: 25%;
+    }
+
+}
+
+@media screen and (max-width: 909px){
+    .nav-links{
+        margin-left: 16%;
+    }
+
+}
+
+@media screen and (max-width: 792px){
+    .nav-links{
+        margin-left: 6%;
+    }
+
+}
+
+@media screen and (max-width: 693px){
+    .nav-links{
+        margin-left: 0%;
+    }
+    .nav-items{
+        margin-right: 18px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .logo{
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width: 474px){
+    .nav-items{
+        margin-right: 10px;
+    }
+    .nav-items a{
+        font-size: smaller;
+    }
+
 }
