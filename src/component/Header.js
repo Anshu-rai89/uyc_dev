@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink, BrowserRouter } from "react-router-dom";
-import UnderConstruction from "./UnderConstruction";
 import "./Header.css";
 
 class Header extends React.Component {

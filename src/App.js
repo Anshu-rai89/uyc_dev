@@ -9,7 +9,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App" style={{backgroundImage:  `url('../img/main_cover.png')`}}>
         <Header />
         <Switch>
           <Route path="/" component={MainBody} />
