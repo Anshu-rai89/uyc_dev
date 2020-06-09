@@ -1,15 +1,23 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
-import Footer from './Footer';
-import MainBody from './MainBody';
+import React from "react";
+import "./App.css";
+import Header from "./component/Header";
+import Footer from "./component/Footer";
+import MainBody from "./component/MainBody";
+import ConstructionPage from "./component/UnderConstruction";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <MainBody/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route path="/" component={MainBody} />
+          <Route path="/construction" component={ConstructionPage} />
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
