@@ -1,77 +1,80 @@
 .social-icon {
-    height: 30px;
-    width: 30px;
-    position: relative;
-    margin-top: 5px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  margin-top: 5px;
 }
 
 .footer-div {
-    position: relative;
-    height: 46px;
-    width: 100%;
-    background: #0F2B38;
-    display: flex;
-    overflow: hidden
+  position: relative;
+  height: 46px;
+  width: 100%;
+  background: #0f2b38;
+  display: flex;
 }
 
 #fb-logo {
-
-    left: 1%;
-    display: inline-block;
-
+  left: 1%;
+  display: inline-block;
 }
 
 #insta-logo {
-
-    left: 2%;
-
+  left: 2%;
 }
 
 #mail-id {
-    display: inline-block;
-    position: relative;
-    left: 3%;
-    color: white;
-    top: 21%;
+  display: inline-block;
+  position: relative;
+  left: 3%;
+  color: white;
+  top: 21%;
 }
 
 #whatsapp-logo {
-    display: inline-block;
-    margin-left: 86%;
-    position: absolute;
+  display: inline-block;
+  margin-left: 86%;
+  position: absolute;
 }
 
 #whatsapp-num {
-    display: inline-block;
-    position: absolute;
-    margin-left: 89%;
-    color: white;
-    margin-top: 1%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 89%;
+  color: white;
+  margin-top: 1%;
+}
+@media only screen and (max-width: 600px) {
+  #whatsapp-num {
+    display: none;
+  }
+  #whatsapp-logo {
+    float: right;
+  }
 }
 
-@media screen and (max-width: 1142px){
-   #whatsapp-logo{
-        margin-left: 81%;
-   }
-   #whatsapp-num{
-        margin-left: 85%;
-   }
+@media screen and (max-width: 1142px) {
+  #whatsapp-logo {
+    margin-left: 81%;
+  }
+  #whatsapp-num {
+    margin-left: 85%;
+  }
 }
 
-@media screen and (max-width: 843px){
-    #whatsapp-logo{
-         margin-left: 74%;
-    }
-    #whatsapp-num{
-         margin-left: 79%;
-    }
- }
+@media screen and (max-width: 843px) {
+  #whatsapp-logo {
+    margin-left: 74%;
+  }
+  #whatsapp-num {
+    margin-left: 79%;
+  }
+}
 
- @media screen and (max-width: 598px){
-    #whatsapp-logo{
-         margin-left: 64%;
-    }
-    #whatsapp-num{
-         margin-left: 69%;
-    }
- }
+@media screen and (max-width: 598px) {
+  #whatsapp-logo {
+    margin-left: 64%;
+  }
+  #whatsapp-num {
+    margin-left: 69%;
+  }
+}

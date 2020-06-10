@@ -1,8 +1,14 @@
 import React from "react";
-
+import logo from "../common/images/UYC_WEB.jpg";
 class UnderConstruction extends React.Component {
   render() {
-    return <h1>Construction pages </h1>;
+    return (
+      <div>
+        <div>
+          <img src={logo} className="c-page" />
+        </div>
+      </div>
+    );
   }
 }
 
