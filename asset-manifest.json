@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uyc_dev/static/css/main.b48ad87f.chunk.css",
+    "main.css": "/uyc_dev/static/css/main.5382eb76.chunk.css",
     "main.js": "/uyc_dev/static/js/main.75cd3b03.chunk.js",
     "main.js.map": "/uyc_dev/static/js/main.75cd3b03.chunk.js.map",
     "runtime-main.js": "/uyc_dev/static/js/runtime-main.878c0128.js",
@@ -8,16 +8,16 @@
     "static/js/2.1081800a.chunk.js": "/uyc_dev/static/js/2.1081800a.chunk.js",
     "static/js/2.1081800a.chunk.js.map": "/uyc_dev/static/js/2.1081800a.chunk.js.map",
     "index.html": "/uyc_dev/index.html",
-    "precache-manifest.a0fb8ea794257bbe7ea2d8003ed97db4.js": "/uyc_dev/precache-manifest.a0fb8ea794257bbe7ea2d8003ed97db4.js",
+    "precache-manifest.62836123454bc8cbd1bb9e81b37d16a4.js": "/uyc_dev/precache-manifest.62836123454bc8cbd1bb9e81b37d16a4.js",
     "service-worker.js": "/uyc_dev/service-worker.js",
-    "static/css/main.b48ad87f.chunk.css.map": "/uyc_dev/static/css/main.b48ad87f.chunk.css.map",
+    "static/css/main.5382eb76.chunk.css.map": "/uyc_dev/static/css/main.5382eb76.chunk.css.map",
     "static/js/2.1081800a.chunk.js.LICENSE.txt": "/uyc_dev/static/js/2.1081800a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/uyc_dev/static/media/UYC_WEB.51069ce4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.878c0128.js",
     "static/js/2.1081800a.chunk.js",
-    "static/css/main.b48ad87f.chunk.css",
+    "static/css/main.5382eb76.chunk.css",
     "static/js/main.75cd3b03.chunk.js"
   ]
 }
