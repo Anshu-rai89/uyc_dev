@@ -44,11 +44,8 @@
   margin-top: 1%;
 }
 @media only screen and (max-width: 600px) {
-  #whatsapp-num {
+  #mail-id {
     display: none;
-  }
-  #whatsapp-logo {
-    margin-left: 85%;
   }
 }
 
@@ -61,20 +58,11 @@
   }
 }
 
-@media screen and (max-width: 843px) {
-  #whatsapp-logo {
-    margin-left: 74%;
-  }
-  #whatsapp-num {
-    margin-left: 79%;
-  }
-}
-
 @media screen and (max-width: 598px) {
   #whatsapp-logo {
     margin-left: 64%;
   }
   #whatsapp-num {
-    margin-left: 69%;
+    margin-left: 75%;
   }
 }

@@ -11,16 +11,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 30%;
+    height: 60%;
     width: 100%;
     overflow: hidden;
-  }
-  #moto-text-body,
-  #motive {
-    display: none;
-  }
-  #motive {
-    display: none !important;
   }
 }
 
@@ -75,6 +68,17 @@
 
 @media screen and (max-width: 568px) {
   .logo-body {
-    width: 43%;
+    width: 100%;
+    margin-left: 0px;
+  }
+  #moto-text-body {
+    font-size: 1rem;
+    text-align: center;
+    left: 20%;
+  }
+  #motive {
+    font-size: 0.7rem;
+    text-align: center;
+    left: 33%;
   }
 }
