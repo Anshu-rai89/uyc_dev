@@ -23,3 +23,9 @@ code {
   height: 500px;
   width: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .c-page {
+    height: 20%;
+    width: 100%;
+  }
+}

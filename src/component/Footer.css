@@ -48,7 +48,7 @@
     display: none;
   }
   #whatsapp-logo {
-    float: right;
+    margin-left: 85%;
   }
 }
 
